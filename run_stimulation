@@ -1,0 +1,10 @@
+python3 bridge.py cs1 10
+python3 bridge.py cs2 10
+python3 bridge.py cs3 10
+python3 station.py -route ifaces.r1 rtable.r1 hosts
+python3 station.py -route ifaces.r2 rtable.r2 hosts
+python3 station.py -no ifaces.a rtable.a hosts
+python3 station.py -no ifaces.b rtable.b hosts
+python3 station.py -no ifaces.c rtable.c hosts
+python3 station.py -no ifaces.d rtable.d hosts
+python3 station.py -no ifaces.e rtable.e hosts
